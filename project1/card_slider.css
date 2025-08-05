@@ -1,0 +1,55 @@
+.slider-container {
+
+  
+  position: relative;
+  overflow: hidden;
+}
+
+.slidercard {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card {
+  flex: 100%;
+  /* padding: 0 60px; */
+  font-size: 24px;
+  margin: 18px 10px;
+  border-radius: 12px;
+}
+
+.card img {
+  height: 190px;
+  width: 315px;
+  border-radius: 10px;
+  cursor: pointer;
+  /* box-shadow: 0 4px 8px rgb(72, 67, 67); */
+}
+.card span{
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  position: relative;
+  bottom: 40px;
+  color: rgb(11, 11, 11);
+  /* font-size: 18px; */
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 32px;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 15px;
+  border-radius: 50%;
+}
+
+.next {
+  right: 1px;
+}

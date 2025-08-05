@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+header{
+  font-family: sans-serif;
+}
+.uppermenu{
+  position: relative;
+  background-color: yellow;
+  height: 35px;
+  width: 100%;
+}
+.uppermenu span{
+  margin-left: 40px;
+  position: relative;
+  top: 7px;
+  /* font-family: 'AR One Sans'; */
+  /* font-size: 2px; */
+  font-weight: 600;
+}
+.icans{
+  display: flex;
+  gap: 40px;
+  position: absolute;
+  right: 50px;
+  top: 10px;
+}
+
+.main_nav {
+  position:relative;
+  background-color: whitesmoke;
+  padding: 12px 20px;
+   /* display: flex;
+  justify-content: flex-end;
+  align-items: center; */
+  
+}
+
+.main_nav img {
+  width: 45px;
+}
+.short-name{
+  position: absolute;
+  left: 25px;
+  background-color: green;
+  color: white;
+  width: 30px;
+  border-radius: 10px;
+  font-size: 8px;
+  padding: 0 6px;
+  
+}
+
+.comp-name {
+  position: absolute; 
+  left: 70px;
+  top: 12px;
+  /* font-family: sans-serif; */
+
+} 
+
+.com-info{
+  position: absolute; 
+  left: 75px;
+  top: 38px;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: flex-end;
+  /* align-items: center; */
+  list-style-type: none;
+  gap: 30px;
+  position: absolute;
+  right: 40px;
+  top: 13px;
+  /* font-family: sans-serif; */
+
+}
+.nav-ul li{
+  position: relative;
+  top: 10px;
+  cursor: pointer;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.nav-ul .con {
+  border: 1px solid black;
+  position: relative;
+  top: -4px;
+  padding: 13px 30px;
+  border-radius: 10px; 
+}
+
+.nav-ul li,
+a {
+  display: inline;
+  text-decoration: none;
+  margin-left: 15px;
+  color: black;
+}
